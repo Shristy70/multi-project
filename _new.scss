@@ -1,0 +1,282 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  .nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .data {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  a {
+    color: black;
+    margin-left: 10px;
+  }
+  .giga {
+    display: flex;
+    align-items: center;
+  }
+  .giga h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Caveat", cursive;
+    color: rgb(34, 1, 29);
+  }
+  .giga i {
+    padding-left: 10px;
+    padding-top: 25px;
+    font-size: 20px;
+  }
+  .search input {
+    font-size: 20px;
+    padding: 10px 90px;
+  }
+  .search button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .navbar .data i {
+    padding-left: 19px;
+    color: rgb(71, 71, 71);
+  }
+  .nav2 ul {
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+  }
+  .nav2 ul li {
+    padding-left: 30px;
+    font-size: 18px;
+  }
+  .nav2 ul li i {
+    padding-left: 5px;
+  }
+  .nav2 ul li a {
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+  }
+  .nav2 .cata {
+    width: 300px;
+    height: 900px;
+    background-color: #f11515;
+  }
+}
+.hero11 {
+  margin-top: 120px;
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+.pro {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  padding: 20px;
+  gap: 5px;
+}
+.item1 {
+  height: 450px;
+  width: 350px;
+  border: 1px solid black;
+  box-shadow: 1px 2px 2px 4px rgb(233, 195, 208);
+}
+.item1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.item1 h4 {
+  padding-left: 10px;
+  font-size: 20px;
+}
+.item1 del {
+  color: gray;
+}
+.item1 button {
+  font-size: 20px;
+  padding: 20px 125px;
+  background-color: rgb(251, 161, 191);
+  color: #fff;
+}
+.foot {
+  background-image: linear-gradient(
+    rgb(228, 224, 224),
+    rgb(224, 221, 221),
+    rgb(226, 226, 226)
+  );
+
+  .wrap {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  ul {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    line-height: 2;
+  }
+  h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  p {
+    line-height: 2;
+    font-size: 18px;
+  }
+  .wrap2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .input {
+    h2 {
+      font-weight: 400;
+      margin-top: 10px;
+      font-size: 26px;
+    }
+    input {
+      font-size: 20px;
+      padding: 20px 20px;
+      margin-top: 20px;
+      padding-right: 170px;
+    }
+  }
+  .icons {
+    font-size: 28px;
+    padding: 10px;
+    padding-right: 40px;
+    text-shadow: 2px 2px 2px rgb(126, 125, 125);
+  }
+  .wrap3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .download {
+      width: 400px;
+      margin-top: 40px;
+      border: 2px solid palevioletred;
+      h4 {
+        padding-left: 50px;
+        padding-top: 20px;
+        font-size: 20px;
+      }
+      p {
+        padding-left: 50px;
+      }
+      span {
+        color: palevioletred;
+      }
+    }
+    .down {
+      display: flex;
+      align-content: center;
+      justify-content: space-around;
+      color: aliceblue;
+      margin-right: 20px;
+    }
+    .playstor {
+      background-color: black;
+      color: #fff;
+      display: flex;
+      padding: 10px;
+    }
+
+    .app {
+      background-color: black;
+      color: #fff;
+      display: flex;
+      padding: 10px;
+    }
+    i {
+      padding-right: 10px;
+    }
+  }
+  .channel {
+    h2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-left: 200px;
+      font-size: 35px;
+    }
+    height: 100px;
+    .chaca {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .div {
+      width: 50px;
+      height: 50px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+#click {
+  display: none;
+}
+.manu {
+  font-size: 20px;
+  display: none;
+}
+@media screen and (max-width: 836px) {
+  .manu {
+    display: block;
+  }
+  .nav2 ul {
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+    line-height: 2.5;
+    background-color: rgb(234, 232, 232);
+    border-radius: 5px;
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  .nav1 input {
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+  }
+  .nav1 button {
+    position: relative;
+    left: 100%;
+    top: 25px;
+  }
+  .foot .channel h2 {
+    padding-bottom: 0;
+  }
+  .pro {
+    grid-template-columns: auto;
+    grid-template-rows: (6, 1fr);
+  }
+}

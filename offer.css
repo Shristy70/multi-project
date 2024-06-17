@@ -1,0 +1,152 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar .nav1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .data {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.navbar a {
+  color: black;
+  margin-left: 10px;
+}
+.navbar .giga {
+  display: flex;
+  align-items: center;
+}
+.navbar .giga h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Caveat", cursive;
+  color: rgb(34, 1, 29);
+}
+.navbar .giga i {
+  padding-left: 10px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+.navbar .search input {
+  font-size: 20px;
+  padding: 10px 90px;
+}
+.navbar .search button {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.navbar .navbar .data i {
+  padding-left: 19px;
+  color: rgb(71, 71, 71);
+}
+.navbar .nav2 ul {
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+}
+.navbar .nav2 ul li {
+  padding-left: 30px;
+  font-size: 18px;
+}
+.navbar .nav2 ul li i {
+  padding-left: 5px;
+}
+.navbar .nav2 ul li a {
+  color: rgb(92, 91, 91);
+  text-decoration: none;
+}
+.navbar .nav2 .cata {
+  width: 300px;
+  height: 900px;
+  background-color: #f11515;
+}
+
+.header .img img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 500px;
+  width: 100%;
+}
+.header .second h2 {
+  position: relative;
+  left: 40%;
+  font-size: 40px;
+}
+.header .second p {
+  position: relative;
+  left: 43%;
+  font-size: 25px;
+  color: palevioletred;
+}
+.header .second .CON {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+.header .second .CON .item1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid rgb(242, 178, 199);
+  margin-right: 10px;
+}
+.header .second .CON .item1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.header .second .CON .item1 img h4 {
+  position: relative;
+  left: 20px;
+  font-size: 40px;
+}
+.header .third img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 40px;
+}
+.header .produt {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row: auto;
+}
+.header .pro1 {
+  margin-top: 30px;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(227, 226, 226);
+}
+.header .pro1 img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+.header .pro1 p {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 30px;
+}
+.header .pro1 del {
+  color: gray;
+}
+.header nav {
+  margin-top: 5px;
+  background-color: gainsboro;
+  padding: 10px;
+}
+.header nav h2 {
+  position: relative;
+  left: 45%;
+}/*# sourceMappingURL=offer.css.map */

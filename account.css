@@ -1,0 +1,96 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar .nav1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .data {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.navbar a {
+  color: black;
+  margin-left: 10px;
+}
+.navbar .giga {
+  display: flex;
+  align-items: center;
+}
+.navbar .giga h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Caveat", cursive;
+  color: rgb(34, 1, 29);
+}
+.navbar .giga i {
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.navbar .search input {
+  font-size: 20px;
+  padding: 10px 90px;
+}
+.navbar .search button {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.navbar .navbar .data i {
+  padding-left: 19px;
+  color: rgb(71, 71, 71);
+}
+.navbar .nav2 ul {
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+}
+.navbar .nav2 ul li {
+  padding-left: 30px;
+  font-size: 18px;
+}
+.navbar .nav2 ul li i {
+  padding-left: 5px;
+}
+.navbar .nav2 ul li a {
+  color: rgb(56, 55, 55);
+  text-decoration: none;
+}
+.navbar .nav2 .cata {
+  width: 300px;
+  height: 900px;
+  background-color: #f11515;
+}
+
+.he img {
+  width: 100%;
+  opacity: 0.4;
+}
+.he .data {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.he label {
+  font-size: 30px;
+}
+.he input {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.he a {
+  text-decoration: none;
+  font-size: 20px;
+  color: palevioletred;
+}
+.he button {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  background-color: palevioletred;
+  color: rgb(125, 6, 46);
+}/*# sourceMappingURL=account.css.map */

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.navbar .nav1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .data {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.navbar a {
+  color: black;
+  margin-left: 10px;
+}
+.navbar .giga {
+  display: flex;
+  align-items: center;
+}
+.navbar .giga h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Caveat", cursive;
+  color: rgb(34, 1, 29);
+}
+.navbar .giga i {
+  padding-left: 10px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+.navbar .search input {
+  font-size: 20px;
+  padding: 10px 90px;
+}
+.navbar .search button {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.navbar .navbar .data i {
+  padding-left: 19px;
+  color: rgb(71, 71, 71);
+}
+.navbar .nav2 ul {
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+}
+.navbar .nav2 ul li {
+  padding-left: 30px;
+  font-size: 18px;
+}
+.navbar .nav2 ul li i {
+  padding-left: 5px;
+}
+.navbar .nav2 ul li a {
+  color: rgb(92, 91, 91);
+  text-decoration: none;
+}
+.navbar .nav2 .cata {
+  width: 300px;
+  height: 900px;
+  background-color: #f11515;
+}
+
+.hero {
+  padding-top: 150px;
+}
+.hero .img {
+  opacity: 0.4;
+  position: relative;
+}
+.hero .detail {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.hero .detail h2 {
+  font-size: 45px;
+  color: rgb(101, 4, 33);
+  font-family: "Kaushan Script", cursive;
+}
+.hero .detail input {
+  font-size: 20px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.hero .detail span {
+  padding-left: 90px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.hero .detail button {
+  padding: 10px 20px;
+  font-size: 30px;
+  border: 3px solid rgb(139, 4, 51);
+  background-color: palevioletred;
+  color: #4f0120;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+.hero .detail .info {
+  display: flex;
+}
+.hero .detail .info #map {
+  border: #4f0120;
+}
+.hero .nabar h2 {
+  background-color: rgb(141, 138, 138);
+  padding: 0px 20px;
+  text-align: center;
+  color: black;
+}/*# sourceMappingURL=store.css.map */

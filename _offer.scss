@@ -1,0 +1,326 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  .nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .data {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  a {
+    color: black;
+    margin-left: 10px;
+  }
+  .giga {
+    display: flex;
+    align-items: center;
+  }
+  .giga h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Caveat", cursive;
+    color: rgb(34, 1, 29);
+  }
+  .giga i {
+    padding-left: 10px;
+    padding-top: 25px;
+    font-size: 20px;
+  }
+  .search input {
+    font-size: 20px;
+    padding: 10px 90px;
+  }
+  .search button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .navbar .data i {
+    padding-left: 19px;
+    color: rgb(71, 71, 71);
+  }
+  .nav2 ul {
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+  }
+  .nav2 ul li {
+    padding-left: 30px;
+    font-size: 18px;
+  }
+  .nav2 ul li i {
+    padding-left: 5px;
+  }
+  .nav2 ul li a {
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+  }
+  .nav2 .cata {
+    width: 300px;
+    height: 900px;
+    background-color: #f11515;
+  }
+}
+.headeroffer {
+  margin-top: 130px;
+
+    img {
+      height: 500px;
+      width: 100%;
+    }
+  }
+  .second {
+    h2 {
+      position: relative;
+      left: 40%;
+      font-size: 40px;
+    }
+    p {
+      position: relative;
+      left: 43%;
+      font-size: 25px;
+      color: palevioletred;
+    }
+    .CON {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto;
+      justify-content: center;
+
+      .item1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 10px solid rgb(242, 178, 199);
+        margin-right: 10px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+          h4 {
+            position: relative;
+            left: 20px;
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+  .third {
+    img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      margin-top: 40px;
+    }
+  }
+  .produt {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: auto;
+  }
+  .pro1 {
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(248, 174, 197);
+    img {
+      width: 100%;
+      height: 250px;
+      border-radius: 5px;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 700;
+      padding-left: 30px;
+    }
+    del {
+      color: gray;
+    }
+  }
+  .silver_of {
+    width: 100%;
+    height: 400px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .foot {
+    background-image: linear-gradient(
+      rgb(228, 224, 224),
+      rgb(224, 221, 221),
+      rgb(226, 226, 226)
+    );
+
+    .wrap {
+      padding: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    ul {
+      list-style: none;
+      text-decoration: none;
+      padding-top: 20px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      line-height: 2;
+    }
+    h4 {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 18px;
+    }
+    p {
+      line-height: 2;
+      font-size: 18px;
+    }
+    .wrap2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .input {
+      h2 {
+        font-weight: 400;
+        margin-top: 10px;
+        font-size: 26px;
+      }
+      input {
+        font-size: 20px;
+        padding: 20px 20px;
+        margin-top: 20px;
+        padding-right: 170px;
+      }
+    }
+    .icons {
+      font-size: 28px;
+      padding: 10px;
+      padding-right: 40px;
+      text-shadow: 2px 2px 2px rgb(126, 125, 125);
+    }
+    .wrap3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .download {
+        width: 400px;
+        margin-top: 40px;
+        border: 2px solid palevioletred;
+        h4 {
+          padding-left: 50px;
+          padding-top: 20px;
+          font-size: 20px;
+        }
+        p {
+          padding-left: 50px;
+        }
+        span {
+          color: palevioletred;
+        }
+      }
+      .down {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        color: aliceblue;
+        margin-right: 20px;
+      }
+      .playstor {
+        background-color: black;
+        color: #fff;
+        display: flex;
+        padding: 10px;
+      }
+
+      .app {
+        background-color: black;
+        color: #fff;
+        display: flex;
+        padding: 10px;
+      }
+      i {
+        padding-right: 10px;
+      }
+    }
+    .channel {
+      h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 200px;
+        font-size: 35px;
+      }
+      height: 100px;
+      .chaca {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+#click {
+  display: none;
+}
+.manu {
+  font-size: 20px;
+  display: none;
+}
+@media screen and (max-width: 836px) {
+  .manu {
+    display: block;
+  }
+  .nav2 ul {
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+    line-height: 2.5;
+    background-color: rgb(234, 232, 232);
+    border-radius: 5px;
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  .headeroffer .second .CON {
+    grid-template-columns: auto;
+  }
+  .nav1 input {
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+  }
+  .nav1 button {
+    position: relative;
+    left: 100%;
+    top: 25px;
+  }
+  .headeroffer .produt {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+}

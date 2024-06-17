@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  .nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .data {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  a {
+    color: black;
+    margin-left: 10px;
+  }
+  .giga {
+    display: flex;
+    align-items: center;
+  }
+  .giga h1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Caveat", cursive;
+    color: rgb(34, 1, 29);
+  }
+  .giga i {
+    padding-left: 10px;
+    padding-top: 25px;
+    font-size: 20px;
+  }
+  .search input {
+    font-size: 20px;
+    padding: 10px 90px;
+  }
+  .search button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .navbar .data i {
+    padding-left: 19px;
+    color: rgb(71, 71, 71);
+  }
+  .nav2 ul {
+    display: flex;
+    list-style: none;
+    padding-left: 20px;
+  }
+  .nav2 ul li {
+    padding-left: 30px;
+    font-size: 18px;
+  }
+  .nav2 ul li i {
+    padding-left: 5px;
+  }
+  .nav2 ul li a {
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+  }
+  .nav2 .cata {
+    width: 300px;
+    height: 900px;
+    background-color: #f11515;
+  }
+}
+.head {
+  h2 {
+    font-size: 40px;
+    margin-top: 130px;
+    color: rgb(49, 48, 48);
+  }
+  .two {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    .div1 {
+      width: 600px;
+      height: 150px;
+      border: 1px solid black;
+      border-radius: 10px;
+      display: flex;
+      margin: 10px;
+      img {
+        width: 150px;
+        height: 150px;
+        padding: 20px;
+      }
+      .rupee {
+        padding: 60px 0px;
+      }
+      .con {
+        padding-top: 60px;
+        padding-left: 240px;
+      }
+      ul {
+        list-style: none;
+        margin-top: 10px;
+      }
+      del {
+        color: gray;
+      }
+    }
+    .box2 {
+      width: 607px;
+      border: 1px solid rgb(104, 103, 103);
+      border-radius: 10px;
+
+      p {
+        border-top: 3px solid rgb(229, 229, 229);
+        font-size: 20px;
+        color: grey;
+        margin-bottom: 10px;
+      }
+      #text {
+        margin-top: 20px;
+        margin: 10px;
+        padding-left: 5px;
+        font-size: 15px;
+        color: rgb(144, 141, 141);
+      }
+      label {
+        margin: 20px;
+      }
+      input {
+        color: gray;
+        margin-bottom: 10px;
+      }
+      #sub {
+        padding: 10px 30px;
+        margin: 30px;
+        font-size: 20px;
+        background-color: palevioletred;
+        color: #fff;
+      }
+    }
+    .div2 {
+      display: flex;
+
+      img {
+        width: 150px;
+        height: 150px;
+        padding: 20px;
+      }
+      .rupee {
+        padding: 40px 0px;
+      }
+      .con {
+        padding-top: 60px;
+        padding-left: 150px;
+      }
+      ul {
+        list-style: none;
+        margin-top: 10px;
+      }
+      .twobox {
+        display: flex;
+      }
+    }
+    .twobox {
+      padding: 4px 20px;
+      font-size: 17px;
+      gap: 4px;
+      border: none;
+      margin-top: 5px;
+    }
+    del {
+      color: gray;
+    }
+    button {
+      padding: 5px 10px;
+      border-radius: 2px;
+      font-size: 10px;
+      color: gray;
+      border: none;
+    }
+    .box22 {
+      width: 500px;
+      height: 500px;
+      background-color: rgb(219, 219, 219);
+      margin: 50px;
+      margin-left: 90px;
+      box-shadow: 1px 1px 2px 3px rgb(131, 131, 131);
+      position: sticky;
+      top: 50px;
+      h4 {
+        margin: 10px;
+        font-size: 20px;
+        color: rgb(39, 39, 39);
+        font-weight: 400;
+      }
+      .DATAA {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin: 5px;
+
+        .di1 {
+          font-size: 20px;
+          font-weight: 400;
+        }
+        .di2 {
+          font-size: 20px;
+        }
+      }
+      p {
+        border-bottom: 2px solid gray;
+        font-size: 17px;
+        margin: 5px;
+        color: rgb(105, 104, 104);
+        margin-top: 20px;
+        border-top: 2px solid gray;
+      }
+      .combo {
+        display: flex;
+        margin: 2px;
+        align-items: center;
+        margin-top: 30px;
+      }
+      .com1 {
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 1px solid rgb(72, 72, 72);
+        align-items: center;
+      }
+      h3 {
+        font-weight: 400;
+        font-weight: 400;
+      }
+      h6 {
+        padding-top: 30px;
+        font-size: 25px;
+        font-weight: 400;
+      }
+      button {
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+        background-color: rgb(246, 168, 181);
+        color: #fff;
+        border: 2px solid maroon;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .foot {
+    background-image: linear-gradient(
+      rgb(228, 224, 224),
+      rgb(224, 221, 221),
+      rgb(226, 226, 226)
+    );
+
+    .wrap {
+      padding: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    ul {
+      list-style: none;
+      text-decoration: none;
+      padding-top: 20px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      line-height: 2;
+    }
+    h4 {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 18px;
+    }
+    p {
+      line-height: 2;
+      font-size: 18px;
+    }
+    .wrap2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .input {
+      h2 {
+        font-weight: 400;
+        margin-top: 10px;
+        font-size: 26px;
+      }
+      input {
+        font-size: 20px;
+        padding: 20px 20px;
+        margin-top: 20px;
+        padding-right: 170px;
+      }
+    }
+    .icons {
+      font-size: 28px;
+      padding: 10px;
+      padding-right: 40px;
+      text-shadow: 2px 2px 2px rgb(126, 125, 125);
+    }
+    .wrap3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .download {
+        width: 400px;
+        margin-top: 40px;
+        border: 2px solid palevioletred;
+        h4 {
+          padding-left: 50px;
+          padding-top: 20px;
+          font-size: 20px;
+        }
+        p {
+          padding-left: 50px;
+        }
+        span {
+          color: palevioletred;
+        }
+      }
+      .down {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        color: aliceblue;
+        margin-right: 20px;
+      }
+      .playstor {
+        background-color: black;
+        color: #fff;
+        display: flex;
+        padding: 10px;
+      }
+
+      .app {
+        background-color: black;
+        color: #fff;
+        display: flex;
+        padding: 10px;
+      }
+      i {
+        padding-right: 10px;
+      }
+    }
+    .channel {
+      h2 {
+        padding-bottom: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 200px;
+        font-size: 35px;
+      }
+      height: 100px;
+      .chaca {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+      }
+      .div {
+        width: 50px;
+        height: 50px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+#click {
+  display: none;
+}
+.manu {
+  font-size: 20px;
+  display: none;
+}
+@media screen and (max-width: 836px) {
+  .manu {
+    display: block;
+  }
+  .nav2 ul {
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+    line-height: 2.5;
+    background-color: rgb(234, 232, 232);
+    border-radius: 5px;
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  .nav1 input {
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+  }
+  .head .two .div1 {
+    width: 100%;
+  }
+  .head .two .box2 {
+    width: 100%;
+  }
+  .head .two .div1 {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .nav1 button {
+    position: relative;
+    left: 100%;
+    top: 25px;
+  }
+}
